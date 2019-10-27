@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import BingoCard from './BingoCard';
-import ThemeToggle from './ThemeToggle';
+import SettingsBar from './SettingsBar';
 
 export default () => {
   return (
@@ -13,14 +13,7 @@ export default () => {
       justify="center"
       style={{ minHeight: '100vh' }}
     >
-      <Grid
-        style={{ marginRight: '8px' }}
-        container
-        alignItems="center"
-        justify="flex-end"
-      >
-        <ThemeToggle />
-      </Grid>
+      <SettingsBar />
       <BingoCard
         count={75}
         rows={['B', 'I', 'N', 'G', 'O']}
