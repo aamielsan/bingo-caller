@@ -5,7 +5,7 @@ import ThemeToggle from './ThemeToggle';
 
 const useStyles = makeStyles(theme => ({
   settings: {
-    paddingRight: theme.spacing(4),
+    paddingRight: theme.spacing(1),
   },
 }));
 

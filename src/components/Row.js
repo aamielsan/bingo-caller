@@ -5,7 +5,6 @@ export default ({ children }) => {
   return (
     <Grid
       container
-      className="row"
       direction="row"
       justify="center"
       alignItems="center"
